@@ -1,0 +1,68 @@
+1
+14/02/1613
+Triple Retaliation
+53
+1
+12/07/1652
+War for Death
+93
+1
+17/10/1667
+Instant Victory
+36
+1
+17/04/1682
+Inferno of Overkill
+26
+1
+03/12/1685
+Battle of Prejudice
+65
+1
+18/11/1771
+Sudden Domination
+82
+1
+08/02/1803
+Master of Payback
+89
+1
+25/06/1885
+Vendetta of Assassination
+21
+1
+25/01/1926
+Infinite Glory
+48
+1
+03/03/1939
+Duke of Conquest
+66
+2
+Triple Retaliation
+455
+2
+War for Death
+520
+2
+Instant Victory
+740
+2
+Inferno of Overkill
+840
+2
+Battle of Prejudice
+1040
+2
+Sudden Domination
+1445
+2
+Master of Payback
+1710
+2
+Vendetta of Assassination
+1740
+2
+Infinite Glory
+1900
+2
