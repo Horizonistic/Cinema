@@ -2,6 +2,7 @@
 #include <sstream>
 #include "utils/SuperOutput.h"
 #include "Date.h"
+#include "Movie.h"
 
 using namespace std;
 
@@ -16,8 +17,10 @@ int main()
 {
     SuperOutput* so = new SuperOutput("output.txt");
 
+    char buffer[33];
     Date* date = new Date(2, 3, 2016);
-    cout << date;
+    string name = "test";
+    Movie* movie = new Movie(name, *date);
 
     string line = "";
     ifstream file;

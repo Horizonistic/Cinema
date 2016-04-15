@@ -1,6 +1,8 @@
 #include "Date.h"
 
-Date::Date(int d, int m, int y)
+using namespace std;
+
+Date::Date(int day, int month, int year)
 {
     this->day = day;
     this->month = month;
@@ -10,6 +12,16 @@ Date::Date(int d, int m, int y)
 int Date::getDay()
 {
     return this->day;
+}
+
+int Date::getMonth()
+{
+    return this->month;
+}
+
+int Date::getYear()
+{
+    return this->year;
 }
 
 bool Date::operator==(Date& date)
@@ -72,5 +84,5 @@ bool Date::operator<(Date& date)
 
 std::ostream& operator<<(std::ostream& out, Date& date)
 {
-    return std::cout << date.day;
+    return out << date.getDay() << "/" << date.getMonth() << "/" << date.getYear();
 }

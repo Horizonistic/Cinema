@@ -11,13 +11,18 @@ private:
     std::ofstream file;
 public:
     SuperOutput(std::string filename);
-    void print(std::string input);
+    template<typename T>
+    void print(T input);
     void println();
-    void println(std::string input);
-    void printFile(std::string input);
+    template<typename T>
+    void println(T input);
+    template<typename T>
+    void printFile(T input);
     void printlnFile();
-    void printlnFile(std::string input);
+    template<typename T>
+    void printlnFile(T input);
     void close();
+    friend SuperOutput& operator<<(SuperOutput& so, Date& date);
 };
 
 #endif //SUPEROUTPUT_H
